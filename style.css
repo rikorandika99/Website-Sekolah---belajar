@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(tentanggg.jpg);
+    background-position: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    text-justify: auto;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-image: url(Screenshot\ 2024-03-30\ 152429.png);
+    padding: 2px 0;
+    text-align: center;
+}
+
+.marquee {
+    display: block;
+    font-size: 12px;
+    color: var(--sch-marquee-title-color);
+    line-height: 34px;
+    width: 100%
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.profile-details p {
+    color: orange;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.2px;
+}
+
+.curriculum p {
+    color: orange;
+    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-width: 0.2px;
+}

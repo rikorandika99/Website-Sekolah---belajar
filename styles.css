@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(123.jpg);
+    background-position: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-image: url(Screenshot\ 2024-03-30\ 152429.png);
+    padding: 2px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    text-justify: auto;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.marquee {
+    display: block;
+    font-size: 12px;
+    color: var(--sch-marquee-title-color);
+    line-height: 34px;
+    width: 100%
+}
+
+h3 {
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
+}
+
+.content {
+    padding: 20px;
+    margin-top: 50px; /* menyesuaikan margin atas konten agar tidak tertutup oleh navbar */
+}
